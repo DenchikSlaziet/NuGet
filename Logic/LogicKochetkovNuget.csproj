@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>	  
+    <TargetFramework>net6.0</TargetFramework>
+	<PackageLicenseFile>Lin.txt</PackageLicenseFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Authors>Kochetkov</Authors>
+	<Version>2.0</Version>
+	<Company>ПКГХ</Company>
+	  
+  </PropertyGroup>
+<ItemGroup>
+        <None Include="LinPakege\Lin.txt" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
